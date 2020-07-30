@@ -5,7 +5,7 @@
  * Account object is created.
  * A static method called getNumAccounts(). It should return numAccounts.
  * Test the functionality in the main method of Account by creating a few Account objects,
- *  then print out the number of accounts.
+ * then print out the number of accounts.
  */
 public class Account {
 
