@@ -24,13 +24,14 @@ public class Numbers {
 		Arrays.sort(b);
 
 		// Finding the max value in the array
+		int maxs = Integer.MAX_VALUE;
 		int max = a[0];
 
 		for (int i = 0; i < 15; i++) {
 			if (a[i] > max)
 				max = a[i];
 		}
-		
+
 		int next = 0;
 
 		// Comparing each integer to all the integers in the array and then printing out
@@ -47,8 +48,7 @@ public class Numbers {
 				}
 			}
 			if (a[i] == max) {
-				System.out.println(a[i] + ":" + max);
-
+				System.out.println(a[i] + ":" + maxs);
 			}
 		}
 	}
