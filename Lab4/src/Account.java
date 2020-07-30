@@ -13,10 +13,8 @@ public class Account {
 	static int numAccounts = 0;
 
 	public Account() {
-
 		numAccounts++;
 	}
-
 	public static void main(String[] args) {
 
 		Account one = new Account();
@@ -27,9 +25,7 @@ public class Account {
 
 		getNumAccounts();
 	}
-
 	static void getNumAccounts() {
-
 		System.out.println("The number of accounts are " + numAccounts + ".");
 	}
 }
