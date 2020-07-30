@@ -8,7 +8,7 @@ import java.util.Arrays;
  * value and implement a toString method that returns a String corresponding to 
  * the given suit and face value numbers.
  */
-public class Cards {
+public class Card {
 
 	public static void main(String[] args) {
 		// Creating two strings for the Suits and Ranks.
