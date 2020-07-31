@@ -21,7 +21,7 @@ public class Box {
 
 		// Printing the box
 		char C = 0;
-		printBox(C);
+		Box.printBox(C);
 	}
 
 	// Creating the new method printBox
