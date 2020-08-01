@@ -12,9 +12,9 @@ public class Card {
 
 	public static void main(String[] args) {
 		// Creating two strings for the Suits and Ranks.
-		String[] Suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
 
 		String[] Ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
+		String[] Suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
 
 		// Combining the two strings and initializing the new combined deck.
 		int a = Suits.length * Ranks.length;
