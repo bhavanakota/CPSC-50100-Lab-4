@@ -23,7 +23,6 @@ public class Card2 {
 			String suitStr = suits[rand.nextInt(suits.length)];
 
 			System.out.println(rankStr + " of " + suitStr);
-
 		}
 	}
 }
