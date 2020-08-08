@@ -16,14 +16,12 @@ public class Box {
 
 		// Creating the object box and then setting the size equal to 5
 		Box box = new Box();
-
 		Box.size = 5;
 
-		// Printing the box
-		char C = 0;
-		Box.printBox(C);
+		// Printing the box from the overloaded method
+		Box.printBox();
+		Box.printBox('C');
 	}
-
 	// Creating the new method printBox
 	public static void printBox() {
 
@@ -35,7 +33,6 @@ public class Box {
 			System.out.println();
 		}
 	}
-
 	public static void printBox(char C) {
 		for (int i = 0; i < size; i++) {
 			for (int j = 0; j < size; j++) {
