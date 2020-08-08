@@ -11,7 +11,6 @@ public class Numbers {
 
 		// Creating the array for the original list of numbers
 		int[] a = { 78, 22, 56, 99, 12, 14, 17, 15, 1, 144, 37, 23, 47, 88, 3, 19 };
-
 		nextLargest(a);
 	}
 
@@ -38,11 +37,8 @@ public class Numbers {
 		// the next bigger number. If they are equal then they print out the same
 		// number.
 		for (int i = 0; i < a.length; i++) {
-
 			for (int j = 0; j < a.length - 1; j++) {
-
 				if (b[j] == a[i]) {
-
 					next = b[j + 1];
 					System.out.println(a[i] + ":" + next);
 				}
